@@ -32,9 +32,9 @@ namespace Act._2_Entregable.Data
                             {
                                 ProductoVendido productoVendido = new ProductoVendido();
                                 productoVendido.Id = Convert.ToInt32(reader["Id"]);
-                                productoVendido.IdProducto = Convert.ToInt32(["IdProducto"]);
-                                productoVendido.Stock = Convert.ToInt32(["Stock"]); // revisar
-                                productoVendido.IdVenta = Convert.ToInt32(["IdVenta"]);
+                                productoVendido.IdProducto = Convert.ToInt32(reader["IdProducto"]);
+                                productoVendido.Stock = Convert.ToInt32(reader["Stock"]); // revisar
+                                productoVendido.IdVenta = Convert.ToInt32(reader["IdVenta"]);
 
                                 ListaProductoVendidos.Add(productoVendido);
 
@@ -76,9 +76,9 @@ namespace Act._2_Entregable.Data
                                 productoVendido = new ProductoVendido
                                 {
                                     Id = Convert.ToInt32(reader["id"]),
-                                    IdProducto = Convert.ToInt32(["IdProducto"]),
-                                    Stock = Convert.ToInt32(["Stock"]), // revisar
-                                    IdVenta = Convert.ToInt32(["IdVenta"])
+                                    IdProducto = Convert.ToInt32(reader["IdProducto"]),
+                                    Stock = Convert.ToInt32(reader["Stock"]), // revisar
+                                    IdVenta = Convert.ToInt32(reader["IdVenta"])
                                 };
                             }
                         }

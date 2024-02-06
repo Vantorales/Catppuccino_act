@@ -32,10 +32,10 @@ namespace Act._2_Entregable.Data
                             {
                                 Venta venta = new Venta();
                                 venta.Id = Convert.ToInt32(reader["Id"]);
-                                venta.Comentarios = reader["Comentarios"].ToString();
-                                venta.Total = Convert.ToInt32(reader["Total"]);
+                                venta.Descripcion = reader["Descripcion"].ToString();
+                                venta.Precio = Convert.ToInt32(reader["Precio"]);
                                 venta.Descuento = Convert.ToInt32(reader["Descuento"]);
-                                venta.IdUsuario = VentaData.ObtenerVenta(id); //revisar
+                                venta.IdUsuario = Convert.ToInt32(reader["idUsuario"]); ; //revisar ..... anthony: Acá solo va el id del usuario no la info del usuario en si
 
                                 ListaVentas.Add(venta);
 
@@ -78,11 +78,11 @@ namespace Act._2_Entregable.Data
                                 venta = new Venta
                                 {
                                     Id = Convert.ToInt32(reader["Id"]),
-                                    Comentarios = reader["Comentarios"].ToString(),
-                                    Total = Convert.ToInt32(reader["Total"]),
+                                    Descripcion = reader["Comentarios"].ToString(),
+                                    Precio = Convert.ToInt32(reader["Total"]),
                                     Descuento = Convert.ToInt32(reader["Descuento"]),
                                     IdUsuario = Convert.ToInt32(reader["IdUsuario"])
-                                }
+                                };
                             }
                         }
                     }
@@ -100,7 +100,7 @@ namespace Act._2_Entregable.Data
                                      "values (@TipoInfusion, @Descripcion, @Precio, @Stock, @idUsuario)";
                 using SqlCommand command = new SqlCommand(insertquery, connection);
 
-                command.Parameters.AddWithValue("@TipoInfusion", venta.TipoInfusion);
+                command.Parameters.AddWithValue("@TipoInfusion", venta.TipoInfusion); 
                 command.Parameters.AddWithValue("@Descripcion", venta.Descripcion);
                 command.Parameters.AddWithValue("@Precio", venta.Precio);
                 command.Parameters.AddWithValue("@Stock", venta.Stock);
@@ -132,8 +132,8 @@ namespace Act._2_Entregable.Data
                     using SqlCommand command = new SqlCommand(updateQuery, connection);
 
                     command.Parameters.AddWithValue("@IdVenta", venta.Id);
-                    command.Parameters.AddWithValue("@NuevoComentario", venta.Comentarios);
-                    command.Parameters.AddWithValue("@NuevoTotal", venta.Total);
+                    command.Parameters.AddWithValue("@NuevoComentario", venta.Descripcion);
+                    command.Parameters.AddWithValue("@NuevoTotal", venta.Precio);
                     command.Parameters.AddWithValue("@NuevoDescuento", venta.Descuento);
                     //command.Parameters.AddWithValue("@idUsuario", venta.IdUsuario);
 

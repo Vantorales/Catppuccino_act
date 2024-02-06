@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Act.2-Entregable")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a237dac448c26127bc8c8267e7703e226ba1bbc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Act.2-Entregable")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Act.2-Entregable")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

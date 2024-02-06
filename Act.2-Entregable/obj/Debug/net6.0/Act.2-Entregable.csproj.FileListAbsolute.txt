@@ -42,3 +42,25 @@ C:\Users\Vanesa-\source\repos\ACT_2-Entregable\Act.2-Entregable\obj\Debug\net6.0
 C:\Users\Vanesa-\source\repos\ACT_2-Entregable\Act.2-Entregable\obj\Debug\net6.0\Act.2-Entregable.csproj.CopyComplete
 C:\Users\Vanesa-\source\repos\ACT_2-Entregable\Act.2-Entregable\obj\Debug\net6.0\Act.2-Entregable.genruntimeconfig.cache
 C:\Users\Vanesa-\source\repos\ACT_2-Entregable\Act.2-Entregable\obj\Debug\net6.0\ref\Act.2-Entregable.dll
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\bin\Debug\net6.0\Act.2-Entregable.exe
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\bin\Debug\net6.0\Act.2-Entregable.deps.json
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\bin\Debug\net6.0\Act.2-Entregable.runtimeconfig.json
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\bin\Debug\net6.0\Act.2-Entregable.dll
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\bin\Debug\net6.0\Act.2-Entregable.pdb
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\obj\Debug\net6.0\Act.2-Entregable.csproj.AssemblyReference.cache
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\obj\Debug\net6.0\Act.2-Entregable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\obj\Debug\net6.0\Act.2-Entregable.AssemblyInfoInputs.cache
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\obj\Debug\net6.0\Act.2-Entregable.AssemblyInfo.cs
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\obj\Debug\net6.0\Act.2-Entregable.csproj.CoreCompileInputs.cache
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\obj\Debug\net6.0\Act.2-Entregable.csproj.CopyComplete
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\obj\Debug\net6.0\Act.2-Entregable.dll
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\obj\Debug\net6.0\refint\Act.2-Entregable.dll
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\obj\Debug\net6.0\Act.2-Entregable.pdb
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\obj\Debug\net6.0\Act.2-Entregable.genruntimeconfig.cache
+C:\Users\Antho\Downloads\proyecto vane\Act.2-Entregable\obj\Debug\net6.0\ref\Act.2-Entregable.dll

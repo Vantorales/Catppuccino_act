@@ -36,7 +36,7 @@ namespace Act._2_Entregable.Data
                                 producto.Descripcion = reader["descripcion"].ToString();
                                 producto.Precio = Convert.ToInt32(reader["precio"]);
                                 producto.Stock = Convert.ToInt32(reader["stock"]);
-                                producto.IdUsuario = productodata.ObtenerProducto(id); //revisar
+                                producto.IdUsuario = Convert.ToInt32(reader["idusuario"]); //revisar
 
                                 ListaProductos.Add(producto);
 
